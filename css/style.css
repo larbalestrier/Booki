@@ -153,6 +153,18 @@ form {
 .filtres_size_logo{
     font-size: 20px;
 }
+
+.info_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info_bg{
+   border: 1px solid var(--filter-bg-color);
+   border-radius: 25px;
+   font-size: 12px;
+   padding: 6px 9px;
+}
 /* */
 .section-title {
     margin: 0;
