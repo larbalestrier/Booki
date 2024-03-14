@@ -31,6 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .header_logo{
@@ -54,7 +55,66 @@ a {
 
     }
 }
+/* SECTION INTRO/FILTRE */ 
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
 
+H1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.intro_paragraphe{
+    margin: 8px 0px 0px 0px;
+}
+/*FORMULAIRE */
+form {
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    max-width: 377px;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+    border-radius: 15px;
+}
+.form_container{
+    display: flex;
+    width: 100%;
+}
+.form_label {
+    background-color: var(--main-bg-color);
+    padding: 0px 18px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+}
+.form_icone{
+    color: black;
+    font-size: 18px;  
+}
+.form_input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form_button{
+    background-color: var(--main-color);
+    color: white;
+    border-radius:0px 15px 15px 0px;
+    border: none;
+    padding-inline: 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.recherche-icone{
+    display: none;
+}
 /* */
 .section-title {
     margin: 0;
@@ -197,7 +257,7 @@ a {
     header{
         flex-direction: column;
         align-items: center; 
-        padding-bottom: 30px;
+        
     }
     nav {
         width: 100%;
@@ -222,5 +282,20 @@ a {
     }
     .nav_item a:hover {
         border: none;
+    }
+    /* SECTION INTRO*/
+    .intro{
+        padding-inline: 20px;
+    }
+    /* formulaire*/ 
+    .form_button{
+        border-radius: 15px;
+    }
+    .recherche_text{
+        display: none;
+    }
+    .recherche-icone{
+        display: contents;
+        color: white;
     }
 }
