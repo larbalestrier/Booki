@@ -140,7 +140,8 @@ form {
     border-radius: 25px;
     font-size: 17px;
     font-weight: 700;
-    padding: 13px 19px ;
+    padding: 0px 19px ;
+    height: 48px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -148,6 +149,9 @@ form {
 .filtres_bg:hover{
     background-color: var(--filter-bg-color);
     cursor: pointer;
+}
+.filtres_size_logo{
+    font-size: 20px;
 }
 /* */
 .section-title {
@@ -249,6 +253,15 @@ form {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    /*SECTION INTRO*/
+    .filtres{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtres_bg {
+        font-size: 16px;
+    }
+    /**/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -335,5 +348,16 @@ form {
     .recherche-icone{
         display: contents;
         color: white;
+    }
+    /* filtres */
+     .filtres_container {
+        flex-direction: column; 
+        width: 100%;
+     }
+     .filtres_bg {
+        font-size: 14px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
