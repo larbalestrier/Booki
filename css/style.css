@@ -60,6 +60,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 35px;
+    margin-bottom: 35px;
 }
 
 H1 {
@@ -212,6 +213,45 @@ form {
     width: 65%;
 }
 
+.hebergement-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.hebergement-card img{
+    width: 100%;
+    height: 114px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergement-card .card-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    
+}
+.hebergement-card .card-title {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.hebergement-card .card-subtitle{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.hebergement-card article {
+    height: 100%;
+}
+.link_view_more{
+    display: flex;
+}
+.view_more{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin: 0px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
