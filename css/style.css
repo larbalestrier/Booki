@@ -111,6 +111,7 @@ form {
     padding-inline: 16px;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 .recherche-icone{
     display: none;
@@ -143,6 +144,10 @@ form {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.filtres_bg:hover{
+    background-color: var(--filter-bg-color);
+    cursor: pointer;
 }
 /* */
 .section-title {
