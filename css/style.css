@@ -70,7 +70,7 @@ H1 {
 .intro_paragraphe{
     margin: 8px 0px 0px 0px;
 }
-/*FORMULAIRE */
+/* formulaire */
 form {
     display: flex;
     flex-direction: row;
@@ -114,6 +114,35 @@ form {
 }
 .recherche-icone{
     display: none;
+}
+
+/* filtres */ 
+.filtres{
+    display: flex ;
+    align-items: center;
+    gap: 15px;
+}
+.filtres_title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.filtres_container{
+    display: flex;
+    gap: 15px;
+}
+.filtres_container_reponsive{
+    display: flex;
+    gap: 15px;
+}
+.filtres_bg{
+    border:2px solid #D9D9D9 ;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 13px 19px ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 /* */
 .section-title {
@@ -293,6 +322,7 @@ form {
     }
     .form_button{
         border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
     }
     .recherche_text{
         display: none;
