@@ -288,6 +288,9 @@ form {
         padding-inline: 20px;
     }
     /* formulaire*/ 
+    form {
+        max-width: 100%;
+    }
     .form_button{
         border-radius: 15px;
     }
