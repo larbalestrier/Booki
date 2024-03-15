@@ -102,6 +102,7 @@ form {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
+    outline: none
 }
 
 .form_button{
@@ -412,4 +413,34 @@ form {
         display: flex;
         justify-content: center;
     }
+    /* SECTION HEBERGEMENTS ET POPULAIRES */
+    .hebergements-and-populaires section {
+        padding: 35px 20px;
+        border-radius: 0;
+    }
+    .populaires {
+        margin: 0;
+    }
+    .populaires-cards{
+        display: flex;
+        gap: 15px;
+        padding-top: 15px;
+    }
+    
+    .populaires-cards a {
+        width: 100%;
+    }
+    .populaires-cards .card {
+        margin-top: 0px;
+    }
+    .hebergements{
+        order: 2;
+        background-color: white !important;
+    }
+    .populaires-cards{
+        flex-direction: column;
+    }
+    .hebergement-card {
+        grid-template-columns: 1fr;
+    } 
 }
