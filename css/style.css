@@ -50,7 +50,7 @@ a {
     gap: 68px;
 }
 
-.nav_list a:hover{
+.nav_liste a:hover{
     border-top: 2px solid var(--main-color);
     padding-top:14px ;
     color: var(--main-color);
