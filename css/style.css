@@ -48,13 +48,14 @@ a {
     list-style: none;
     display: flex;
     gap: 68px;
-        & a:hover{
-            border-top: 2px solid var(--main-color);
-            padding-top:14px ;
-            color: var(--main-color);
-
-    }
 }
+
+.nav_list a:hover{
+    border-top: 2px solid var(--main-color);
+    padding-top:14px ;
+    color: var(--main-color);
+}
+
 /* SECTION INTRO/FILTRE */ 
 .intro {
     display: flex;
